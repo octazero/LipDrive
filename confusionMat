@@ -1,0 +1,1 @@
+[{'left': 5, 'right': 0, 'move': 0, 'stop': 3, 'classError': 0.375}, {'left': 0, 'right': 3, 'move': 2, 'stop': 0, 'classError': 0.40000000000000002}, {'left': 3, 'right': 1, 'move': 2, 'stop': 0, 'classError': 0.66666666666666663}, {'left': 0, 'right': 0, 'move': 0, 'stop': 3, 'classError': 0.0}]

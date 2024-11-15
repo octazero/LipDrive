@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B65D2EA9203A799F82FBF75B1B29D9A /* Pods-LipDriveTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47B45617DE55C505EAA3E7C9AF3604B /* Pods-LipDriveTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C49C91BC6A29AAC96372AF33E3D7FAD /* RecordButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1560B92FE9F6D3EBB161619847D20DB2 /* RecordButton-dummy.m */; };
+		1C83016AE17865653C49A7337752E19F /* RecordButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F7E794AE37A0A82C23BF6834445F7D /* RecordButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D650C33AEA2BF00D23C32FC3B631738 /* Pods-LipDriveUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A2622734E69270FC3786FBE2E58BA /* Pods-LipDriveUITests-dummy.m */; };
+		339183C2B654A97D9A823223DEA2861F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		6BAEEC27D4B610927616307EE3D1FEC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6CABF44EC286F1516B2B28C4B1C0EA6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		94267E9278B0F5474B75167964337AC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		99657709322660364DBBAED7F1215F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9F008623EF01E0AFD09ECD43CA694866 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA2611E4298A9F92F5940DD37EEFE3 /* RecordButton.swift */; };
+		B313C613E0B71A36B7FF02FBFF43C6F2 /* Pods-LipDrive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432728FC6B7FC8B7A79312A3D0E39FCC /* Pods-LipDrive-dummy.m */; };
+		E6A09E8CEFEBAE856FC815503A671090 /* Pods-LipDriveUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22841F84107C39775B4E5E30168742DD /* Pods-LipDriveUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B9D50410F30B1F3C3605F2A0ECDF0A /* Pods-LipDriveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE95C9BB61F6B4938D502EA40841E04C /* Pods-LipDriveTests-dummy.m */; };
+		F90F594553C037E577552E8BA7CB71A9 /* Pods-LipDrive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D968774E22E5F74CD4BB473C140F0E /* Pods-LipDrive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77FB64EE36418C33D2F867ACDFF91A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E4E97D29F9CAB39B57B138697EE68C;
+			remoteInfo = "Pods-LipDrive";
+		};
+		84B5E9B5DD4B08BE57B2EBD8EACB204D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E422CA6153A4063FF916FDB2FB9D3FAC;
+			remoteInfo = RecordButton;
+		};
+		8E623AF990FC0EAAA97475A0EF0DCEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E4E97D29F9CAB39B57B138697EE68C;
+			remoteInfo = "Pods-LipDrive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A731C405C7EEDB332D4BF23AFE5B56 /* Pods-LipDriveUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LipDriveUITests.modulemap"; sourceTree = "<group>"; };
+		05B85F39D25FE2BFBDBF9168FCAFB116 /* Pods-LipDrive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LipDrive.modulemap"; sourceTree = "<group>"; };
+		08A1E30874B9122976ABBF73F3373D13 /* RecordButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecordButton.xcconfig; sourceTree = "<group>"; };
+		10E65C9DEF3B157C6915EE3613721EBB /* Pods-LipDrive-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LipDrive-frameworks.sh"; sourceTree = "<group>"; };
+		11143FA043208719B55F060E29795888 /* Pods-LipDriveUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LipDriveUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1560B92FE9F6D3EBB161619847D20DB2 /* RecordButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecordButton-dummy.m"; sourceTree = "<group>"; };
+		22841F84107C39775B4E5E30168742DD /* Pods-LipDriveUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LipDriveUITests-umbrella.h"; sourceTree = "<group>"; };
+		25B20BE90363354FC0D3884F7B71A178 /* RecordButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RecordButton.framework; path = RecordButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5B8E5DBDEF99E0D2A4120D2DD5A730 /* Pods-LipDriveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LipDriveTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E69CB6D44884C5B6DBB7C2C4B5C1CB1 /* Pods-LipDrive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LipDrive-acknowledgements.plist"; sourceTree = "<group>"; };
+		432728FC6B7FC8B7A79312A3D0E39FCC /* Pods-LipDrive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LipDrive-dummy.m"; sourceTree = "<group>"; };
+		479CCD8405665AEEB31B7322A9C592A5 /* Pods-LipDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LipDrive.release.xcconfig"; sourceTree = "<group>"; };
+		53C37406F5FA57DB70533D19EAC51583 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B6076F1A436C0BA5558FDB47962B25 /* Pods-LipDriveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LipDriveTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DFEE3E7299B2F59620B0E1D693F4956 /* Pods-LipDriveUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LipDriveUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F9A2622734E69270FC3786FBE2E58BA /* Pods-LipDriveUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LipDriveUITests-dummy.m"; sourceTree = "<group>"; };
+		6169034EB820792426D3163B8D75B092 /* Pods_LipDriveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LipDriveUITests.framework; path = "Pods-LipDriveUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BD7793D041E809E79A8334C8DBE746 /* Pods-LipDriveTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LipDriveTests.modulemap"; sourceTree = "<group>"; };
+		64726821504CD39F6F7EDD78F02F3EC6 /* Pods-LipDriveTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LipDriveTests-frameworks.sh"; sourceTree = "<group>"; };
+		64DD08116EE02608967A51D42C468F52 /* Pods_LipDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LipDrive.framework; path = "Pods-LipDrive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F7E794AE37A0A82C23BF6834445F7D /* RecordButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordButton-umbrella.h"; sourceTree = "<group>"; };
+		70BA758468F4A48DE8E70FB74D165FC7 /* Pods-LipDriveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LipDriveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A3E1E753B2B1CF6255B4863C57707AE /* Pods-LipDrive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LipDrive-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8103AB9CE2535A5C72EE7C4A478D508C /* Pods-LipDriveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LipDriveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85E732511B40919CD8C9BE7AA0912F45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5DA2611E4298A9F92F5940DD37EEFE3 /* RecordButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordButton.swift; path = Pod/Classes/RecordButton.swift; sourceTree = "<group>"; };
+		AE95C9BB61F6B4938D502EA40841E04C /* Pods-LipDriveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LipDriveTests-dummy.m"; sourceTree = "<group>"; };
+		B18BED44B2F29D2425C9145E9CA212C4 /* Pods-LipDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LipDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B667BFF120A2C8C693C31DB86DB4B91F /* Pods-LipDriveUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LipDriveUITests-resources.sh"; sourceTree = "<group>"; };
+		CA77011A04FA4227EE9455A94BA71057 /* Pods-LipDriveTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LipDriveTests-resources.sh"; sourceTree = "<group>"; };
+		CB2916C904111BE1628A2407914190E3 /* RecordButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordButton-prefix.pch"; sourceTree = "<group>"; };
+		CF8FB3617BC3384A10AB6E533DE56A71 /* Pods-LipDriveUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LipDriveUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF9C9CD1B72055B6DAA2C1FB55E53120 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47B45617DE55C505EAA3E7C9AF3604B /* Pods-LipDriveTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LipDriveTests-umbrella.h"; sourceTree = "<group>"; };
+		D6D968774E22E5F74CD4BB473C140F0E /* Pods-LipDrive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LipDrive-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAB2A316F33145964611D50AFADFEA38 /* Pods-LipDrive-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LipDrive-resources.sh"; sourceTree = "<group>"; };
+		DFA5E15A3DA70A26AF1978F3F1FE120A /* RecordButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RecordButton.modulemap; sourceTree = "<group>"; };
+		E728376D4F98FED31AD4594150627728 /* Pods-LipDriveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LipDriveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0CB4791BAF844BFF2E732FC9ADF5BF /* Pods-LipDriveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LipDriveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE8486215338A3D7E0C94EE11A83B6E1 /* Pods_LipDriveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LipDriveTests.framework; path = "Pods-LipDriveTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EE3931BF0FAF668052D8C8497DB050 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BF840E496C54B3C6DFE764707BC88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CABF44EC286F1516B2B28C4B1C0EA6A /* Foundation.framework in Frameworks */,
+				339183C2B654A97D9A823223DEA2861F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35807F5572CA77CE53DB9866C4370684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94267E9278B0F5474B75167964337AC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D4696FC2C470EEF9B538A81D117182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99657709322660364DBBAED7F1215F8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE402DA6516F5764C63472ACC5030604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAEEC27D4B610927616307EE3D1FEC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5E7FDE5FE8C18C6733D8DED7324EE0 /* Pods-LipDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5EE3931BF0FAF668052D8C8497DB050 /* Info.plist */,
+				61BD7793D041E809E79A8334C8DBE746 /* Pods-LipDriveTests.modulemap */,
+				ED0CB4791BAF844BFF2E732FC9ADF5BF /* Pods-LipDriveTests-acknowledgements.markdown */,
+				57B6076F1A436C0BA5558FDB47962B25 /* Pods-LipDriveTests-acknowledgements.plist */,
+				AE95C9BB61F6B4938D502EA40841E04C /* Pods-LipDriveTests-dummy.m */,
+				64726821504CD39F6F7EDD78F02F3EC6 /* Pods-LipDriveTests-frameworks.sh */,
+				CA77011A04FA4227EE9455A94BA71057 /* Pods-LipDriveTests-resources.sh */,
+				D47B45617DE55C505EAA3E7C9AF3604B /* Pods-LipDriveTests-umbrella.h */,
+				8103AB9CE2535A5C72EE7C4A478D508C /* Pods-LipDriveTests.debug.xcconfig */,
+				2A5B8E5DBDEF99E0D2A4120D2DD5A730 /* Pods-LipDriveTests.release.xcconfig */,
+			);
+			name = "Pods-LipDriveTests";
+			path = "Target Support Files/Pods-LipDriveTests";
+			sourceTree = "<group>";
+		};
+		2ED5CE1482F4DD73B9AB5AC1E78B84D5 /* Pods-LipDrive */ = {
+			isa = PBXGroup;
+			children = (
+				CF9C9CD1B72055B6DAA2C1FB55E53120 /* Info.plist */,
+				05B85F39D25FE2BFBDBF9168FCAFB116 /* Pods-LipDrive.modulemap */,
+				7A3E1E753B2B1CF6255B4863C57707AE /* Pods-LipDrive-acknowledgements.markdown */,
+				2E69CB6D44884C5B6DBB7C2C4B5C1CB1 /* Pods-LipDrive-acknowledgements.plist */,
+				432728FC6B7FC8B7A79312A3D0E39FCC /* Pods-LipDrive-dummy.m */,
+				10E65C9DEF3B157C6915EE3613721EBB /* Pods-LipDrive-frameworks.sh */,
+				DAB2A316F33145964611D50AFADFEA38 /* Pods-LipDrive-resources.sh */,
+				D6D968774E22E5F74CD4BB473C140F0E /* Pods-LipDrive-umbrella.h */,
+				B18BED44B2F29D2425C9145E9CA212C4 /* Pods-LipDrive.debug.xcconfig */,
+				479CCD8405665AEEB31B7322A9C592A5 /* Pods-LipDrive.release.xcconfig */,
+			);
+			name = "Pods-LipDrive";
+			path = "Target Support Files/Pods-LipDrive";
+			sourceTree = "<group>";
+		};
+		3BD81FF3D794CD396D23D5CE494033F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E732511B40919CD8C9BE7AA0912F45 /* Info.plist */,
+				DFA5E15A3DA70A26AF1978F3F1FE120A /* RecordButton.modulemap */,
+				08A1E30874B9122976ABBF73F3373D13 /* RecordButton.xcconfig */,
+				1560B92FE9F6D3EBB161619847D20DB2 /* RecordButton-dummy.m */,
+				CB2916C904111BE1628A2407914190E3 /* RecordButton-prefix.pch */,
+				64F7E794AE37A0A82C23BF6834445F7D /* RecordButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RecordButton";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5094E508DCA9E2E4BF78FE9562689660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DD08116EE02608967A51D42C468F52 /* Pods_LipDrive.framework */,
+				EE8486215338A3D7E0C94EE11A83B6E1 /* Pods_LipDriveTests.framework */,
+				6169034EB820792426D3163B8D75B092 /* Pods_LipDriveUITests.framework */,
+				25B20BE90363354FC0D3884F7B71A178 /* RecordButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A7630462F338985C26E7F2344625F6 /* Pods-LipDriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53C37406F5FA57DB70533D19EAC51583 /* Info.plist */,
+				05A731C405C7EEDB332D4BF23AFE5B56 /* Pods-LipDriveUITests.modulemap */,
+				5DFEE3E7299B2F59620B0E1D693F4956 /* Pods-LipDriveUITests-acknowledgements.markdown */,
+				CF8FB3617BC3384A10AB6E533DE56A71 /* Pods-LipDriveUITests-acknowledgements.plist */,
+				5F9A2622734E69270FC3786FBE2E58BA /* Pods-LipDriveUITests-dummy.m */,
+				11143FA043208719B55F060E29795888 /* Pods-LipDriveUITests-frameworks.sh */,
+				B667BFF120A2C8C693C31DB86DB4B91F /* Pods-LipDriveUITests-resources.sh */,
+				22841F84107C39775B4E5E30168742DD /* Pods-LipDriveUITests-umbrella.h */,
+				E728376D4F98FED31AD4594150627728 /* Pods-LipDriveUITests.debug.xcconfig */,
+				70BA758468F4A48DE8E70FB74D165FC7 /* Pods-LipDriveUITests.release.xcconfig */,
+			);
+			name = "Pods-LipDriveUITests";
+			path = "Target Support Files/Pods-LipDriveUITests";
+			sourceTree = "<group>";
+		};
+		7B2B5293813C6F0BD4014C9CBBBFB0FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ED5CE1482F4DD73B9AB5AC1E78B84D5 /* Pods-LipDrive */,
+				0D5E7FDE5FE8C18C6733D8DED7324EE0 /* Pods-LipDriveTests */,
+				74A7630462F338985C26E7F2344625F6 /* Pods-LipDriveUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BD5AFF68A5556D1E89A5BFB454B83407 /* Pods */,
+				5094E508DCA9E2E4BF78FE9562689660 /* Products */,
+				7B2B5293813C6F0BD4014C9CBBBFB0FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5AFF68A5556D1E89A5BFB454B83407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F270206713833678A7CCB8EF80911916 /* RecordButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F270206713833678A7CCB8EF80911916 /* RecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				A5DA2611E4298A9F92F5940DD37EEFE3 /* RecordButton.swift */,
+				3BD81FF3D794CD396D23D5CE494033F0 /* Support Files */,
+			);
+			name = RecordButton;
+			path = RecordButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F1CC642CC521AC1308B6B94B008A7EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B65D2EA9203A799F82FBF75B1B29D9A /* Pods-LipDriveTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A733B29591014510058E7B937A9D77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90F594553C037E577552E8BA7CB71A9 /* Pods-LipDrive-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D304CAC73E674005117F3535B1AC07E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A09E8CEFEBAE856FC815503A671090 /* Pods-LipDriveUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00B8FBEA20C7525F3B1ACBBDE889353 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C83016AE17865653C49A7337752E19F /* RecordButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		716F657A1812DD814947C068F9A2ACB6 /* Pods-LipDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3847AF48C14A425F6A73BF5E472DF4 /* Build configuration list for PBXNativeTarget "Pods-LipDriveTests" */;
+			buildPhases = (
+				15E2C4CE97BB07E219FB8460ED70AFE4 /* Sources */,
+				E5D4696FC2C470EEF9B538A81D117182 /* Frameworks */,
+				0F1CC642CC521AC1308B6B94B008A7EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D01736EC868892F4356552AEB45DC5D /* PBXTargetDependency */,
+			);
+			name = "Pods-LipDriveTests";
+			productName = "Pods-LipDriveTests";
+			productReference = EE8486215338A3D7E0C94EE11A83B6E1 /* Pods_LipDriveTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87E4E97D29F9CAB39B57B138697EE68C /* Pods-LipDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1F26C6E83C4E2FE435DD7CD3138D33 /* Build configuration list for PBXNativeTarget "Pods-LipDrive" */;
+			buildPhases = (
+				3245E13F08E2CA8D352337E944905AF4 /* Sources */,
+				EE402DA6516F5764C63472ACC5030604 /* Frameworks */,
+				98A733B29591014510058E7B937A9D77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB151A85804858B2650A54C152CC4E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LipDrive";
+			productName = "Pods-LipDrive";
+			productReference = 64DD08116EE02608967A51D42C468F52 /* Pods_LipDrive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD29E15BD677742C1B681AA9C526E9D7 /* Pods-LipDriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9C3B7BFA5E39A68B0DB65CA2884537 /* Build configuration list for PBXNativeTarget "Pods-LipDriveUITests" */;
+			buildPhases = (
+				5C4E5722C6BCB064C7C02DF636DD93E0 /* Sources */,
+				35807F5572CA77CE53DB9866C4370684 /* Frameworks */,
+				D304CAC73E674005117F3535B1AC07E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C1D026D31DC0408F62C36CAB63E61C /* PBXTargetDependency */,
+			);
+			name = "Pods-LipDriveUITests";
+			productName = "Pods-LipDriveUITests";
+			productReference = 6169034EB820792426D3163B8D75B092 /* Pods_LipDriveUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E422CA6153A4063FF916FDB2FB9D3FAC /* RecordButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E5C8AB26ED555DA7F3EFD5D40DCF14 /* Build configuration list for PBXNativeTarget "RecordButton" */;
+			buildPhases = (
+				2F149C118BCC588B336EB98F82FF8EF3 /* Sources */,
+				03BF840E496C54B3C6DFE764707BC88C /* Frameworks */,
+				E00B8FBEA20C7525F3B1ACBBDE889353 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordButton;
+			productName = RecordButton;
+			productReference = 25B20BE90363354FC0D3884F7B71A178 /* RecordButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5094E508DCA9E2E4BF78FE9562689660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E4E97D29F9CAB39B57B138697EE68C /* Pods-LipDrive */,
+				716F657A1812DD814947C068F9A2ACB6 /* Pods-LipDriveTests */,
+				DD29E15BD677742C1B681AA9C526E9D7 /* Pods-LipDriveUITests */,
+				E422CA6153A4063FF916FDB2FB9D3FAC /* RecordButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E2C4CE97BB07E219FB8460ED70AFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B9D50410F30B1F3C3605F2A0ECDF0A /* Pods-LipDriveTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F149C118BCC588B336EB98F82FF8EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C49C91BC6A29AAC96372AF33E3D7FAD /* RecordButton-dummy.m in Sources */,
+				9F008623EF01E0AFD09ECD43CA694866 /* RecordButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3245E13F08E2CA8D352337E944905AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B313C613E0B71A36B7FF02FBFF43C6F2 /* Pods-LipDrive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4E5722C6BCB064C7C02DF636DD93E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D650C33AEA2BF00D23C32FC3B631738 /* Pods-LipDriveUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D01736EC868892F4356552AEB45DC5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LipDrive";
+			target = 87E4E97D29F9CAB39B57B138697EE68C /* Pods-LipDrive */;
+			targetProxy = 77FB64EE36418C33D2F867ACDFF91A25 /* PBXContainerItemProxy */;
+		};
+		8AB151A85804858B2650A54C152CC4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RecordButton;
+			target = E422CA6153A4063FF916FDB2FB9D3FAC /* RecordButton */;
+			targetProxy = 84B5E9B5DD4B08BE57B2EBD8EACB204D /* PBXContainerItemProxy */;
+		};
+		D6C1D026D31DC0408F62C36CAB63E61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LipDrive";
+			target = 87E4E97D29F9CAB39B57B138697EE68C /* Pods-LipDrive */;
+			targetProxy = 8E623AF990FC0EAAA97475A0EF0DCEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14E8D47C596EAA9042BDE5E3A1E9AC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5B8E5DBDEF99E0D2A4120D2DD5A730 /* Pods-LipDriveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LipDriveTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LipDriveTests/Pods-LipDriveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AAAAB5C9E47634E9990DBB69BBBED07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E728376D4F98FED31AD4594150627728 /* Pods-LipDriveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LipDriveUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LipDriveUITests/Pods-LipDriveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BE9544EA9E24362459E7141DFCCA7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BA758468F4A48DE8E70FB74D165FC7 /* Pods-LipDriveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LipDriveUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LipDriveUITests/Pods-LipDriveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84746F5AAFF1D877D9198734838F74B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8103AB9CE2535A5C72EE7C4A478D508C /* Pods-LipDriveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LipDriveTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LipDriveTests/Pods-LipDriveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB3BD0493804C3D3F050E52927ED03E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A1E30874B9122976ABBF73F3373D13 /* RecordButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RecordButton/RecordButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecordButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecordButton/RecordButton.modulemap";
+				PRODUCT_MODULE_NAME = RecordButton;
+				PRODUCT_NAME = RecordButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C4089A53D5D9A4C71B6984B991D6E206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479CCD8405665AEEB31B7322A9C592A5 /* Pods-LipDrive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LipDrive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LipDrive/Pods-LipDrive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C79166E4C4636C24E50FADC232277197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18BED44B2F29D2425C9145E9CA212C4 /* Pods-LipDrive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LipDrive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LipDrive/Pods-LipDrive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE82450FBB878E07279732195F0E57EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A1E30874B9122976ABBF73F3373D13 /* RecordButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RecordButton/RecordButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecordButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecordButton/RecordButton.modulemap";
+				PRODUCT_MODULE_NAME = RecordButton;
+				PRODUCT_NAME = RecordButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9C3B7BFA5E39A68B0DB65CA2884537 /* Build configuration list for PBXNativeTarget "Pods-LipDriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAAAB5C9E47634E9990DBB69BBBED07 /* Debug */,
+				6BE9544EA9E24362459E7141DFCCA7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1F26C6E83C4E2FE435DD7CD3138D33 /* Build configuration list for PBXNativeTarget "Pods-LipDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79166E4C4636C24E50FADC232277197 /* Debug */,
+				C4089A53D5D9A4C71B6984B991D6E206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3847AF48C14A425F6A73BF5E472DF4 /* Build configuration list for PBXNativeTarget "Pods-LipDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84746F5AAFF1D877D9198734838F74B1 /* Debug */,
+				14E8D47C596EAA9042BDE5E3A1E9AC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E5C8AB26ED555DA7F3EFD5D40DCF14 /* Build configuration list for PBXNativeTarget "RecordButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3BD0493804C3D3F050E52927ED03E4 /* Debug */,
+				DE82450FBB878E07279732195F0E57EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
